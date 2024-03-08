@@ -1,5 +1,11 @@
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <section className="flexStart flex-col paddings mb-16">
+      <h1>Categories</h1>
+      <h1>Posts</h1>
+      <h1>More</h1>
+    </section>
+  );
 };
 
 export default Home;
